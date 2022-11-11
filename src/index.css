@@ -7,9 +7,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-image: linear-gradient(
+    to right,
+    #656565,
+    #525252,
+    #404040,
+    #2f2f2f,
+    #1f1f1f,
+    #1f1f1f,
+    #1f1f1f,
+    #1f1f1f,
+    #2f2f2f,
+    #404040,
+    #525252,
+    #656565
+  );
+  color: #fff;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
